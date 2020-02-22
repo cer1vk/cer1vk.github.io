@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+# Welcome to cer1vk!
 #
 # This config file is meant for settings that affect your whole blog.
 #
@@ -23,10 +23,10 @@ google_analytics:
 # Everything below here can be ignored, unless you want to change the theme entirely
 theme: minima
 plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-octicons
-  - jekyll-github-metadata
+  - cer1vk-feed
+  - cer1vk-gist
+  - cer1vk-octicons
+  - cer1vk-github-metadata
 
 titles_from_headings:
   enabled:     true
