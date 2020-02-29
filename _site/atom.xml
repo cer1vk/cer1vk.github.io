@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cer1vk Blog</title>
+    <title>花鸟 Blog</title>
     <description>守正、自由、共享</description>
     <link>http://localhost:8000</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml" />
     <author>
-      <name>cer1vk</name>
+      <name>Cer1vk</name>
       <email>xuxiaojin7826@gmail.com</email>
       <uri>https://cer1vk.github.io/</uri>
     </author>
