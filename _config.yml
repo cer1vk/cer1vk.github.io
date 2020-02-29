@@ -1,43 +1,32 @@
-# Welcome to cer1vk!
-#
-# This config file is meant for settings that affect your whole blog.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-
 title: Cer1vk Blog
-description:  守正、自由、共享
-github_username: cer1vk
+description: "守正、自由、共享"
+author:
+  name: "cer1vk"
+  email: "xuxiaojin7826@gmail.com"
+  url: "https://cer1vk.github.io/"
 
-# Email and twitter are optional:
-email:xuxiaojin7826@gmail.com
-twitter_username:
+baseurl: /
 
-# Set this to true to get LaTeX math equation support
-use_math:
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 10
+paginate_path: /page/:num/
 
-# Add your Google Analytics ID here if you have one and want to use it
-google_analytics:
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
-# Everything below here can be ignored, unless you want to change the theme entirely
-theme: jekyll-theme-minimal
+future: true
 plugins:
-  - cer1vk-feed
-  - cer1vk-gist
-  - cer1vk-octicons
-  - cer1vk-github-metadata
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
 
-titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
-
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  math_engine: katex
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
+# Custom variables
+owner : "Cer1vk"
+year : "2020"
