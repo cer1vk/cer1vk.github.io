@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-Love technology
+Love technology Love life
 
 花鸟
 
