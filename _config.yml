@@ -30,3 +30,5 @@ plugins:
 # Custom variables
 owner : "Cer1vk"
 year : "2020"
+
+theme: jekyll-theme-hacker
