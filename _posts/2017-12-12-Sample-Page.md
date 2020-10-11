@@ -3,9 +3,9 @@ title: Sample Page
 published: true
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+Text can be **bold**,___`italic`___, ~~strikethrough~~ or `keyword`.
 
-[Link to another page](another-page).
+[Link ](G:\K_BLOGS\GitHub\cer1vk.github.io\_site\404.html).
 
 There should be whitespace between paragraphs.
 
@@ -24,7 +24,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ### [](#header-3)Header 3
 
 ```js
-// Javascript code with syntax highlighting.
+// Javascript code
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
@@ -40,7 +40,7 @@ end
 
 #### [](#header-4)Header 4
 
-*   This is an unordered list following a header.
++   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
@@ -69,7 +69,9 @@ end
 0x01 including
 ===
 
-* * *
+
+
+
 fd   
 ~~fdf~~   
 
@@ -89,10 +91,11 @@ $(document).ready(function () { //注释：等
 ```
 
 
-这是一个链接 [top:](https://www.runoob.com)
+这是一个链接 [top](http://baidu.com)
 
 
 ### Here is an unordered list:
+### Header 6
 
 *   Item foo
 *   Item bar
@@ -134,11 +137,7 @@ $(document).ready(function () { //注释：等
 <dt>Name</dt>
 <dd>Godzilla</dd>
 <dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dt>pxmw</dt>
 </dl>
 
     Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
