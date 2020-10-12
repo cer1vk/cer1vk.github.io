@@ -8,7 +8,8 @@ published: true
 针对极光扫描器探测出的tomcat漏洞进行一次`手工复测`.
 
 
-### 所用到的工具
+### 所用到的工具  
+
 | 序号       | 工具名称          | 测试方式 |
 |:-------------|:------------------|:------|
 | 1         | MSF | 手动  |
@@ -16,7 +17,7 @@ published: true
 #### 目标网站分析
 目标所使用的中间件采用`Apache Tomcat/7.0.82`
 
-![](./目标网站的中间件信息.png)
+![](https://github.com/cer1vk/cer1vk.github.io/blob/cer1vk/_posts/%E7%9B%AE%E6%A0%87%E7%BD%91%E7%AB%99%E7%9A%84%E4%B8%AD%E9%97%B4%E4%BB%B6%E4%BF%A1%E6%81%AF.png)
 
 #### 准备
 
@@ -136,7 +137,7 @@ exp验证不通过.*说明目标不存在该漏洞*
 
 
 #### 目标状态
-![](./ndcims验证后网站状态.png)
+![](https://github.com/cer1vk/cer1vk.github.io/blob/cer1vk/_posts/ndcims%E9%AA%8C%E8%AF%81%E5%90%8E%E7%BD%91%E7%AB%99%E7%8A%B6%E6%80%81.png)
 
 
 ### 总结
