@@ -2,7 +2,7 @@ title: Cer1vk Blog
 description: "守正、自由、共享"
 author:
   name: "Cer1vk"
-  email: "xuxiaojin7826@gmail.com"
+  email: "*@gmail.com"
   url: "https://cer1vk.github.io/"
 
 baseurl: /
@@ -29,6 +29,6 @@ plugins:
 
 # Custom variables
 owner : "Cer1vk"
-year : "2020"
+year : "2021"
 
 theme: jekyll-theme-hacker
